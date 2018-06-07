@@ -87,3 +87,19 @@ class Cat {
   }
 
 }
+
+const monday = new Cat('Monday', 'Garfield - Monday Hater', 'monday', 0, 'cat1', 'cat1Image');
+
+const coffee = new Cat('Coffee', 'Garfield - Coffee Addicted', 'coffee', 0, 'cat2', 'cat2Image');
+
+const lasagna = new Cat('Lasagna', 'Garfield - Lasagna Lover', 'lasagna', 0, 'cat3', 'cat3Image');
+
+const mice = new Cat('Mice', 'Garfield - Mice Friend', 'mice', 0, 'cat4', 'cat4Image');
+
+const diet = new Cat('Diet', 'Garfield - on Diet', 'diet', 0, 'cat5', 'cat5Image');
+
+monday.createCatContainer();
+coffee.createCatContainer();
+lasagna.createCatContainer();
+mice.createCatContainer();
+diet.createCatContainer();

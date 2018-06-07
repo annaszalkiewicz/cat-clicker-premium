@@ -48,6 +48,33 @@ body {
 .container {
   width: 100%;
 }
+.cat-container {
+  max-width: 95%;
+  margin: 2em auto 0 auto;
+  box-shadow: 0 0 20px #757575;
+  background-color: #fff;
+  display: none;
+}
+.cat-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px #757575;
+  transition: box-shadow 1s ease;
+}
+.cat-name {
+  font-family: 'Pacifico', serif;
+  font-size: 3em;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: solid 1px #000;
+}
+.image {
+  width: 100%;
+  padding: 1em;
+}
+.caption {
+  padding: 1em;
+  border-top: solid 1px #000;
+}
 
 /* FOOTER */
 
