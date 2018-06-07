@@ -103,3 +103,59 @@ coffee.createCatContainer();
 lasagna.createCatContainer();
 mice.createCatContainer();
 diet.createCatContainer();
+
+
+const catLists = document.getElementsByClassName('cat-name-list');
+const catImageContainer = document.getElementsByClassName('cat-container');
+
+const mondayList = document.getElementById('monday');
+const coffeeList = document.getElementById('coffee');
+const lasagnaList = document.getElementById('lasagna');
+const miceList = document.getElementById('mice');
+const dietList = document.getElementById('diet');
+const catOne = document.getElementById('cat1');
+const catTwo = document.getElementById('cat2');
+const catThree = document.getElementById('cat3');
+const catFour = document.getElementById('cat4');
+const catFive = document.getElementById('cat5');
+
+
+mondayList.addEventListener('click', function () {
+  catOne.style.display = 'block';
+  catTwo.style.display = 'none';
+  catThree.style.display = 'none';
+  catFour.style.display = 'none';
+  catFive.style.display = 'none';
+})
+
+coffeeList.addEventListener('click', function () {
+  catOne.style.display = 'none';
+  catTwo.style.display = 'block';
+  catThree.style.display = 'none';
+  catFour.style.display = 'none';
+  catFive.style.display = 'none';
+})
+
+lasagnaList.addEventListener('click', function () {
+  catOne.style.display = 'none';
+  catTwo.style.display = 'none';
+  catThree.style.display = 'block';
+  catFour.style.display = 'none';
+  catFive.style.display = 'none';
+})
+
+miceList.addEventListener('click', function () {
+  catOne.style.display = 'none';
+  catTwo.style.display = 'none';
+  catThree.style.display = 'none';
+  catFour.style.display = 'block';
+  catFive.style.display = 'none';
+})
+
+dietList.addEventListener('click', function () {
+  catOne.style.display = 'none';
+  catTwo.style.display = 'none';
+  catThree.style.display = 'none';
+  catFour.style.display = 'none';
+  catFive.style.display = 'block';
+})
