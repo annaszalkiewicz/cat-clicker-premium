@@ -42,6 +42,30 @@ body {
   margin: 1em auto;
   display: block;
 }
+.cats-list ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cat-name-list {
+  padding: 2em 1em 2em 1em;
+  background: #f8b131;
+  background: linear-gradient(#f8b131, #ffd281, #f8b131);
+  -webkit-background: linear-gradient(#f8b131, #ffd281, #f8b131);
+  margin: 0.3em;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  border-radius: 10px;
+  list-style-type: none;
+}
+.cat-name-list:hover {
+  cursor: pointer;
+  background: #ffd281;
+  background: linear-gradient(#ffd281, #f8b131, #ffd281);
+  -webkit-background: linear-gradient(#ffd281, #f8b131, #ffd281);
+}
 
 /* SECTION CAT CARD CONTAINER */
 
@@ -49,7 +73,8 @@ body {
   width: 100%;
 }
 .cat-container {
-  max-width: 95%;
+  width: 95%;
+  max-width: 900px;
   margin: 2em auto 0 auto;
   box-shadow: 0 0 20px #757575;
   background-color: #fff;
